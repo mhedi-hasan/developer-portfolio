@@ -185,3 +185,31 @@ nav li{
     font-size: 30px;
     font-weight: 540;
 }
+.resume-title {
+    /* display: flex; */
+    text-align: center;
+    padding: 70px 0px;
+    font-size: 2rem;
+}
+.resume-section{
+    padding: 10px 13%;
+    display: flex;
+    gap: 50px;
+}
+.resume-section hr {
+    margin: 30px;
+}
+.resume-colum-title{
+    color: #474747;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+.resume-item-institute{
+    font-weight: 550;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+/* .resume-item-description{
+    padding: 19px 2px;
+} */
