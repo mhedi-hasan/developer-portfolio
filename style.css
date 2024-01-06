@@ -45,6 +45,13 @@ nav li{
 }
 /* header style */
 /* banar section */
+.header{
+    background-color: rgba(252, 245, 235, 0.903);
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 .banar{
     display: flex;
     width: 100%;
@@ -69,7 +76,9 @@ nav li{
     /* width: 50%; */
     height: 520px;
     padding-left: 80px;
+    /* background-image: url('images/header_bg.png'); */
 }
+
 .nav-button1{
     background-color: #fd6a0a;
     color: white;
@@ -82,7 +91,7 @@ nav li{
     border-radius: 7px;
 }
 .nav-button1 i,.nav-button2 i {
-    border: 1px solid rgba(102, 88, 88, 0.574);
+    border: 1.1px solid #b45617d1;
     height: 25px;
 }
 .nav-button2{
