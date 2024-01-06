@@ -1,0 +1,39 @@
+/* shared font style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* this is header section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav li{
+    margin-right: 50px;
+    font-size: 1.3rem;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary {
+    color: #fd6a0a;
+}
+.nav-button {
+    background-color: #fd6a0a;
+    color: white;
+    /* height: 45px; */
+    /* width: 120px; */
+    font-size: 22px;
+    font-weight: 518;
+    border: none;
+    padding: 15px 31px;
+    border-radius: 7px;
+}
