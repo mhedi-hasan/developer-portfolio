@@ -50,6 +50,7 @@ nav li{
     background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-size: 630px;
 }
 
 .banar{
@@ -76,9 +77,7 @@ nav li{
     /* width: 50%; */
     height: 520px;
     padding-left: 80px;
-    /* background-image: url('images/header_bg.png'); */
 }
-
 .nav-button1{
     background-color: #fd6a0a;
     color: white;
@@ -95,7 +94,7 @@ nav li{
     height: 25px;
 }
 .nav-button2{
-    /* background-color: #fd6a0a; */
+    background-color:rgb(239, 227, 213);
     color: #fd6a0a;
     /* height: 45px; */
     /* width: 120px; */
@@ -105,6 +104,7 @@ nav li{
     padding: 10px 18px;
     border-radius: 7px;
     margin-left: 18px;
+    border: 0.55px solid rgba(135, 133, 129, 0.972);
 }
 .nav-button1,.nav-button2 {
     margin-top: 18px;
