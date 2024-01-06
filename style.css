@@ -152,11 +152,30 @@ nav li{
 .herosec1{
     border: 1.5px solid transparent;
     border-radius: 10px;
-    margin: 2% 15%;
+    margin: 2% 18%;
     text-align: center;
     background-color: rgba(246, 243, 243, 0.819);
-    padding: 1% 5%;
+    padding: 1% 2%;
 }
 .heros1 h2 {
     padding: 10px 0px;
 }
+/* skill-container */
+.skill-container {
+    display: flex;
+    padding: 0px 14%;
+    justify-content: space-between;
+}
+.skill{
+    height: 300px;
+    width: 205px;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    padding: 13px 18px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.skill-title{
+    padding: 10px 0px;
+}
+/* Technical Skill  */
