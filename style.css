@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* shared font style */
 body{
     font-family: 'Lato', sans-serif;
@@ -8,6 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0px 10%;
+    padding-top: 26px;
 }
 nav ul {
     display: flex;
@@ -34,6 +40,63 @@ nav li{
     font-size: 22px;
     font-weight: 518;
     border: none;
-    padding: 15px 31px;
+    padding: 12px 30px;
     border-radius: 7px;
+}
+/* header style */
+/* banar section */
+.banar{
+    display: flex;
+    width: 100%;
+    padding: 23px 0px 0px 10%;
+}
+.banar1 {
+    width: 50%;
+    /* height: 500px; */
+    margin-top: 100px;
+}
+.banar1 h2 {
+    font-size: 2.6rem;
+    color: #853401;
+}
+.banar1 h1{
+    font-size: 4.2rem;
+}
+.banar1 p{
+    font-size: 1.1rem;
+}
+.banar2 img{
+    /* width: 50%; */
+    height: 520px;
+    padding-left: 80px;
+}
+.nav-button1{
+    background-color: #fd6a0a;
+    color: white;
+    /* height: 45px; */
+    /* width: 120px; */
+    font-size: 22px;
+    font-weight: 518;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 7px;
+}
+.nav-button1 i,.nav-button2 i {
+    border: 1px solid rgba(102, 88, 88, 0.574);
+    height: 25px;
+}
+.nav-button2{
+    /* background-color: #fd6a0a; */
+    color: #fd6a0a;
+    /* height: 45px; */
+    /* width: 120px; */
+    font-size: 22px;
+    font-weight: 518;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 7px;
+    margin-left: 18px;
+}
+.nav-button1,.nav-button2 {
+    margin-top: 18px;
 }
