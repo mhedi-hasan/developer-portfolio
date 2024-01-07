@@ -218,3 +218,45 @@ nav li{
     margin-top: 3.2%;
     margin-bottom: 5%;
 }
+/* footer section */
+.footer-section{
+    display: flex;
+    /* height: 420px;
+    width: 100%; */
+    padding: 5j0px 150px;
+    gap: 100px;
+    background-color: antiquewhite;
+}
+.contacted{
+    padding-bottom: 23px;
+}
+/* .footer-title *{
+    margin-bottom: 20px;
+} */
+/* .footer-title{
+    display: ;
+} */
+.message input,textarea{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+}
+.message input{
+    padding-right: 189px;
+}
+.nav-button,.btw{
+    margin-top: 20px;
+}
+.footer-colum img{
+    margin-top: 20px;
+    padding-left: 13px;
+    /* margin-bottom: 50px; */
+}
+.footer-colum p{
+    line-height: 26px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
