@@ -243,6 +243,7 @@ nav li{
     font-size: 1.1rem;
     border-radius: 8px;
     border: none;
+    outline: 1.5px none;
 }
 .message input{
     padding-right: 189px;
