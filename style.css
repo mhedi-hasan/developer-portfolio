@@ -261,3 +261,24 @@ nav li{
     word-spacing: 3px;
     letter-spacing: 1px;
 }
+.hide{
+    display: none;
+}
+     /* respossiv */
+    /* mobile devices */
+@media screen and (max-width:576px) {
+    .skill-container {
+        display: grid;
+        flex-direction: column;
+    }
+    .herosec1{
+        margin: 0px;
+    }
+}
+      /* medium devices */
+@media screen and (min-width:576px) and (max-width:820px) {
+    .skill-container{
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+    }
+}
