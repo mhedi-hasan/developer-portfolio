@@ -142,6 +142,7 @@ nav li{
 }
 .orderdli{
     display: flex;
+    flex-direction: row;
     text-align: center;
     /* padding: 0px 10%; */
     justify-content: space-evenly;
@@ -269,7 +270,19 @@ nav li{
     .header{
         background-image: none;
     }
+    .orderdli{
+        flex-direction: column;
+    }
+    .banar{
+        background-image: none;
+    }
+    .skill-container{
+        justify-content: center;
+        align-items: center;
+    }
     .banar,
+    nav,
+    nav > ul,
     .skill-container,
     .resume-section,
     .footer-section
@@ -287,6 +300,15 @@ nav li{
         border-radius: 10px;
         margin: 50px 15%;
         text-align: center;
+    }
+    .banar1 {
+        width: 95%;
+        margin-top: 10px;
+    }
+    .banar2 img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
     }
     .message input,textarea{
         font-size: 0.5rem;
@@ -312,6 +334,6 @@ nav li{
 @media screen and (min-width:576px) and (max-width:820px) {
     .skill-container{
         grid-template-columns: repeat(2,1fr);
-        /* flex-direction: row; */
+        display: grid;
     }
 }
