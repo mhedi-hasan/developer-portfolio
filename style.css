@@ -221,8 +221,7 @@ nav li{
 /* footer section */
 .footer-section{
     display: flex;
-    /* height: 420px;
-    width: 100%; */
+    /* height: 420px; */
     padding: 50px 150px;
     gap: 100px;
     background-color: antiquewhite;
@@ -230,12 +229,7 @@ nav li{
 .contacted{
     padding-bottom: 23px;
 }
-/* .footer-title *{
-    margin-bottom: 20px;
-} */
-/* .footer-title{
-    display: ;
-} */
+
 .message input,textarea{
     display: block;
     margin-top: 10px;
@@ -246,7 +240,12 @@ nav li{
     outline: 1.5px none;
 }
 .message input{
-    padding-right: 189px;
+    padding-right: 40%;
+}
+.message input{
+    /* padding-right: 189px; */
+    /* margin: 0 auto; */
+    /* margin-left: 20px; */
 }
 .nav-button,.btw{
     margin-top: 20px;
@@ -267,20 +266,52 @@ nav li{
      /* respossiv */
     /* mobile devices */
 @media screen and (max-width:576px) {
-    .skill-container,.resume-section {
+    .header{
+        background-image: none;
+    }
+    .banar,
+    .skill-container,
+    .resume-section,
+    .footer-section
+    {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* margin-top: 20px; */
+    }
+    .hero-section{
+        flex-direction: row;
+        border: 1.5px solid transparent;
+        border-radius: 10px;
+        margin: 50px 15%;
+        text-align: center;
+    }
+    .message input,textarea{
+        font-size: 0.5rem;
+    }
+    .footer-section{
+        padding: 40px 18px;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
     }
     .herosec1{
         margin: 0px;
+    }
+    .footer-title{
+        padding: 10px;
+        margin: 2px 10px;
+    }
+    .message{
+        width: 80%;
     }
 }
       /* medium devices */
 @media screen and (min-width:576px) and (max-width:820px) {
     .skill-container{
         grid-template-columns: repeat(2,1fr);
-        flex-direction: column;
+        /* flex-direction: row; */
     }
 }
