@@ -267,9 +267,11 @@ nav li{
      /* respossiv */
     /* mobile devices */
 @media screen and (max-width:576px) {
-    .skill-container {
-        display: grid;
+    .skill-container,.resume-section {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
     }
     .herosec1{
         margin: 0px;
